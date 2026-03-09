@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-Time Attendance</title>
+</head>
+<body>
+    <h2 style="text-align:center;">Real-Time Attendance Camera</h2>
+    <div style="text-align:center;">
+        <img src="{{ url_for('video') }}" width="700">
+    </div>
+    <div style="text-align:center; margin-top:20px;">
+        <a href="{{ url_for('view_attendance') }}">
+            <button style="padding:10px 20px; font-size:16px;">View Attendance</button>
+        </a>
+    </div>
+</body>
+</html>
